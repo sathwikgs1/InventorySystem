@@ -1,0 +1,30 @@
+﻿@model Company.DomainModels.Inventory
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage.cshtml";
+}
+
+<h2>Details</h2>
+
+<table class="table">
+    <tr>
+        <th>Product ID</th>
+        <td>@Model.ProductID</td>
+    </tr>
+    <tr>
+        <th>Product Name</th>
+        <td>@Model.ProductName</td>
+    </tr>
+    <tr>
+        <th>Price</th>
+        <td>@Model.Price.Value.ToString("C")</td>
+    </tr>
+    <tr>
+        <th>Availability Status</th>
+        <td>@Model.AvailabilityStatus</td>
+    </tr>
+</table>
+
+<a href="/admin/inventories/index">Back to Inventory</a>
+
+

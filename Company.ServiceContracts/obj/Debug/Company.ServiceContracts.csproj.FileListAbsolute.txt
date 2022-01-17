@@ -1,0 +1,15 @@
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\Company.ServiceContracts.dll.config
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\Company.ServiceContracts.dll
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\Company.ServiceContracts.pdb
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\Company.DomainModels.dll
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\EntityFramework.dll
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\Company.DomainModels.pdb
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\Company.DomainModels.dll.config
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\EntityFramework.xml
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.csproj.AssemblyReference.cache
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.csproj.CopyComplete
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.dll
+C:\Users\SSCS7V\source\repos\InventorySystemExample\Company.ServiceContracts\obj\Debug\Company.ServiceContracts.pdb

@@ -1,0 +1,35 @@
+﻿@model Company.DomainModels.Inventory
+    @{
+        ViewBag.Title = "Edit";
+        Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage.cshtml";
+    }
+
+    <h2>Edit</h2>
+    @using (Html.BeginForm("Edit", "Inventories", new { area = "Admin" }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.HiddenFor(temp => temp.ProductID)
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                @Html.LabelFor(temp => temp.ProductName)
+                @Html.TextBoxFor(temp => temp.ProductName, new { placeholder = "Product Name", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.ProductName)
+            </div>
+            <div class="form-group col-md-6">
+                @Html.LabelFor(temp => temp.Price)
+                @Html.TextBoxFor(temp => temp.Price, new { placeholder = "Price", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Price)
+            </div>
+            <div class="form-group col-md-6">
+                @Html.LabelFor(temp => temp.AvailabilityStatus)
+                @Html.DropDownListFor(temp => temp.AvailabilityStatus, new List<SelectListItem>() {
+                new SelectListItem() { Text = "In Stock", Value = "InStock" },
+                new SelectListItem() { Text = "Out of Stock", Value = "OutOfStock" }
+            }, "Please Select", new { @class = "form-control" })
+            </div>
+        </div>
+
+        @Html.ValidationSummary()
+        <button type="submit" class="btn btn-success">Update</button>
+        <a class="btn btn-danger" href="/admin/inventories/index">Cancel</a>
+    }
+
